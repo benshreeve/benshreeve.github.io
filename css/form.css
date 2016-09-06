@@ -1,6 +1,6 @@
 form {
 	margin: 50px 0 20px 0;
-	color: #FFF;
+	color: #FFFFF;
 }
 
 label {
@@ -48,19 +48,19 @@ button[type=submit]:hover {
 
 
 button[type=submit]:hover {
-	color: #333;
+	color: #33333;
 }
 
 
 
 .formError {
 	display: none;
-	color: #fff !important;
+	color: #FFFFF !important;
 	padding-left: 15px !important;
 }
 
 #returnMessage {
 	margin-top: 20px;
-	color: #FFF;
-/* 	text-align: center; */
+	color: #FFFFF;
+	text-align: center;
 }
