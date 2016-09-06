@@ -12,16 +12,19 @@ textarea {
 }
 
 input[type=text], input[type=email], textarea {
-	background-color: #FFFBFA;
+	/* 
+background-color: #FFFBFA;
 	border: none;
 	border-radius: 0 !important;
 	font-size: 22px !important;
 	padding: 20px 15px;
+ */
 }
 
 
-/* 
+
 button[type=submit] {
+/* 
 	background-color: #345873;
 	border: none;
 	color: #FFFBFA;
@@ -33,9 +36,10 @@ button[type=submit] {
 	padding: 10px;
 	position: relative;
 	transition: background-color 0.3s;
-		-webkit-transition: background-color 0.3s;
+ 		-webkit-transition: background-color 0.3s;
+*/
 }
- */
+
 
 button[type=submit]:hover {
 	color: #F77F25;
