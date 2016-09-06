@@ -49,6 +49,10 @@ button[type=submit]:hover {
 
 button[type=submit]:hover {
 	color: #33333;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 
