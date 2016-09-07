@@ -303,20 +303,24 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
                 <div class="col-lg-10">
                     <h2>Get in touch</h2>                    
 				
+					<div class="row">
 						<form action="https://formspree.io/ben.shreeve@gmail.com" method="POST">
 						<div class="content col-lg-4" id="contactContent">
 						<div class="formfield">
 								<input type="text" name="name" placeholder="Name">
 								<input type="email" name="_replyto" placeholder="Email address">				
+						</div>
+								<!-- 
+<div class="g-recaptcha" 	data-sitekey="6LfQcykTAAAAAAOsb_8Ujk9hVh824czqlfC7bKsS">
+								</div>
+ -->
+						</div>							
+						<div class="content col-lg-6">
+							<textarea class="form-control" id="messageField" name="message" placeholder="Leave me a message here"></textarea>
 							<div class="input">
 							<input type="submit" value="Send">							
 							</div>
 						</div>
-						</div>							
-						<div class="row">
-						<div class="content col-lg-6">
-							<textarea class="form-control" id="messageField" name="message" placeholder="Leave me a message here"></textarea>
-													</div>
 						</form>	
 					</div>
 			</div>
