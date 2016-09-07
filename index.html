@@ -301,22 +301,28 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
 
             <div class="row">
                 <div class="col-lg-8">
-                    <h2>Get in touch</h2>
-                    
-                <div class="row">
-				<div class="content col-lg-4" id="contactContent">
-				<form action="https://formspree.io/ben.shreeve@gmail.com" method="POST">
-    				<input type="text" name="name" placeholder="Name">
-    				<input type="email" name="_replyto" placeholder="Email address">
-    				
-    				<div class="row">
-    				<div class="content col-lg-8">
-    				<textarea class="form-control" id="messageField" name="message" placeholder="Leave me a message here"></textarea>
-    				<div class="g-recaptcha" 	data-sitekey="6LfQcykTAAAAAAOsb_8Ujk9hVh824czqlfC7bKsS">
-					</div>	
-    				<input type="submit" value="Send">
-				</form>
+                    <h2>Get in touch</h2>                    
 				
+					<div class="row">
+						<form action="https://formspree.io/ben.shreeve@gmail.com" method="POST">
+						<div class="content col-lg-4" id="contactContent">
+								<input type="text" name="name" placeholder="Name">
+								<input type="email" name="_replyto" placeholder="Email address">
+								<div class="g-recaptcha" 	data-sitekey="6LfQcykTAAAAAAOsb_8Ujk9hVh824czqlfC7bKsS">
+								</div>
+						</div>							
+						<div class="content col-lg-8">
+							<textarea class="form-control" id="messageField" name="message" placeholder="Leave me a message here"></textarea>
+							
+							<input type="submit" value="Send">
+						</div>
+						</form>	
+					</div>
+			</div>
+		</div>
+	</div>
+	</div>
+					
 					<!--form action="form.php" method="post">
 						<div class="row">
 							<div class="col-lg-5">
@@ -347,10 +353,12 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
 						
 						
 					</form-->
-				</div>
+	<!-- 
+			</div>
 			</div>
                     
                 </div>
+ -->
             <!-- 
 	<div class="col-lg-4">
                     <ul class="list-inline banner-social-buttons">
@@ -372,12 +380,14 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
                     </ul>
                 </div>
  -->
-            </div>
+  <!-- 
+          </div>
 
         </div>
-        <!-- /.container -->
+        <!~~ /.container ~~>
 
     </div>
+ -->
     <!-- /.banner -->
 
     <!-- Footer -->
