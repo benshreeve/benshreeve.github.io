@@ -13,14 +13,15 @@ textarea {
 	height: 135px !important;
 }
 
-input[type=text], input[type=email], textarea {
-	/* 
-background-color: #FFFBFA;
+formfield[type=text], formfield[type=email], textarea {
+
+background-color: #333333;
 	border: none;
 	border-radius: 0 !important;
-	font-size: 22px !important;
-	padding: 20px 15px;
- */
+/* 	font-size: 22px !important; */
+/* 	padding: 20px 15px; */
+	width: 100%;
+	position: relative;
 }
 
 
