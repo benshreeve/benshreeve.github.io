@@ -13,7 +13,7 @@ textarea {
 	height: 135px !important;
 }
 
-formfield[type=text], formfield[type=email], textarea {
+input[type=text], input[type=email], textarea {
 
 background-color: #333333;
 	border: none;
