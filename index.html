@@ -305,7 +305,13 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
                     
                 <div class="row">
 				<div class="content col-lg-12" id="contactContent">
-					<form action="form.php" method="post">
+				<form action="https://formspree.io/ben.shreeve@gmail.com" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <textarea class="form-control" id="messageField" name="message" placeholder="leave a message"></textarea>
+    <input type="submit" value="Send">
+</form>
+					<!--form action="form.php" method="post">
 						<div class="row">
 							<div class="col-lg-5">
 								<div class="form-group">
@@ -334,7 +340,7 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
 						</div>
 						
 						
-					</form>
+					</form-->
 				</div>
 			</div>
                     
