@@ -303,7 +303,7 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
                     
                 <div class="row">
 				<div class="content col-lg-12" id="contactContent">
-					<form action="/contact.php" method="post">
+					<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 						<div class="row">
 							<div class="col-lg-5">
 								<div class="form-group">
