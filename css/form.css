@@ -64,6 +64,9 @@ input[type=submit]:hover {
 /*     border-radius: 6px; */
 }
 
+.specialisms {
+	padding-top: 50px;
+}
 /*
 .formError {
 	display: none;
