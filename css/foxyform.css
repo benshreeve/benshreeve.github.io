@@ -1,0 +1,10 @@
+input.form, input.formsubmit, select.form, option.form, textarea.form, input.captcha {
+    color: #ff0000 !important;
+    font-size: 12px;
+    border: 1px solid #C8C8C8;
+    padding: 2px;
+    background: #fafafa url(layout/img04.gif) repeat-x;
+    margin: 0px;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
