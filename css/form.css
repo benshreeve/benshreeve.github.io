@@ -71,6 +71,10 @@ input[type=submit]:hover {
 .lonely {
 	padding-bottom: 50px;
 }
+
+.fa-paper-plane-o {
+	float: left;
+}
 /*
 .formError {
 	display: none;
