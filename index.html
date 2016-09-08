@@ -563,9 +563,8 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
     <script src="js/bootstrap.min.js"></script>
     
     <script>
-    jQuery('#demo1').slippry()
-		$(function() {
-			var demo1 = $("#demo1").slippry({
+    jQuery(document).ready(function(){
+    	jQuery('#demo1').slippry({
 				 transition: 'fade',
 				// useCSS: true,
 				// speed: 5000,
@@ -573,8 +572,6 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
 				// auto: true,
 				// preload: 'visible',
 				// autoHover: false
-			});
-
 		});
 	});
 	</script>
