@@ -36,7 +36,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="/js/slippry.min.js"></script>
  -->
-
+ 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script src="js/slippry.min.js"></script>
 	<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
@@ -370,17 +370,12 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
                     </div>
   
  -->
-					<div class="demo_wrapper">
-						<article class="demo_block">
-			
 						<ul id="demo1">
 							<li><a href="#slide1"><img src="img/image-1.jpg" alt=""></a></li>
 							<li><a href="#slide2"><img src="img/image-2.jpg"  alt=""></a></li>
 							<li><a href="#slide3"><img src="img/image-4.jpg" alt=""></a></li>
 							<li><a href="#slide4"><img src="img/climbing-wide-cropped.jpg" alt=""></a></li>
 						</ul>
-						</article>
-					</div>	
 	
                     
                 </div>
@@ -567,20 +562,20 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
-    <script type="text/javascript">
-    window.addEventListener("load",function(){
-			$(function() {
-				var demo1 = $("#demo1").slippry({
-					 transition: 'fade',
-					// useCSS: true,
-					// speed: 5000,
-					// pause: 3000,
-					// auto: true,
-					// preload: 'visible',
-					// autoHover: false
-				});
-
+    <script>
+    jQuery('#demo1').slippry()
+		$(function() {
+			var demo1 = $("#demo1").slippry({
+				 transition: 'fade',
+				// useCSS: true,
+				// speed: 5000,
+				// pause: 3000,
+				// auto: true,
+				// preload: 'visible',
+				// autoHover: false
 			});
+
+		});
 	});
 	</script>
 
