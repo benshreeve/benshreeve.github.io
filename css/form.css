@@ -67,6 +67,10 @@ input[type=submit]:hover {
 .specialisms {
 	padding-top: 50px;
 }
+
+.lonely {
+	padding-bottom: 50px;
+}
 /*
 .formError {
 	display: none;
