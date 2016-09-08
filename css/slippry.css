@@ -301,7 +301,6 @@
         border-radius: 0; } }
 
 /* pager bubbles */
-/* 
 .sy-pager {
   overflow: hidden;
   *zoom: 1;
@@ -338,7 +337,6 @@
         opacity: 1.0; }
       .sy-pager li a:hover, .sy-pager li a:focus {
         opacity: 0.6; }
- */
 
 /* element to "keep/ fill" the space of the content, gets intrinsic height via js */
 .sy-filler {
