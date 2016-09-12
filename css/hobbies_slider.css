@@ -1,0 +1,14 @@
+.hobbies_wrapper {
+	width: 100%;
+	height: 50%
+	margin: 0 auto;
+}
+@media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
+  .hobbies_wrapper {
+    width: 100%;
+    height: 50%;
+  }  
+}
+.hobbies_block {
+	width: 100%;
+}
