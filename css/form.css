@@ -110,6 +110,7 @@ input[type=submit]:hover {
 	font-family: crayonFont;
 	color: #993300;
 	font-size:28px;
+	letter-spacing: 2px;
 }
 
 .crayonheader {
@@ -117,6 +118,7 @@ input[type=submit]:hover {
 	font-family: crayonFont;
 	color: #ffffff;
 	font-size:28px;
+	
 }
 
 .crayonCaptionResearch {
