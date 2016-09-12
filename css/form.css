@@ -90,6 +90,10 @@ input[type=submit]:hover {
 	padding-top:5px
 }
 
+.slider-buffer{
+	padding:30px 0px;
+}
+
 .researchQuestion img {
 	margin: 25px auto;
 	width: 70%;
@@ -118,7 +122,15 @@ input[type=submit]:hover {
 	font-family: crayonFont;
 	color: #ffffff;
 	font-size:28px;
-	
+	letter-spacing: 2px;
+}
+
+.bodycrayon {
+	/* text-align: center; */
+	font-family: crayonFont;
+	color: #993300;
+	font-size:22px;
+	letter-spacing: 2px;
 }
 
 .crayonCaptionResearch {

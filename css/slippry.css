@@ -114,14 +114,14 @@
 /* element that wraps the slides */
 .sy-slides-wrap {
   position: relative;
-  height: 480px;
+  height: 100%;
   width: 100%; }
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
 
 /* element that crops the visible area to the slides */
 .sy-slides-crop {
-  height: 450px;
+  height: 100%;
   width: 100%;
   position: absolute;
   overflow: hidden; }
