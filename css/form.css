@@ -81,6 +81,10 @@ input[type=submit]:hover {
 	padding-top: 50px;
 }
 
+.filler-top {
+	padding-top: 30px;
+}
+
 .lonely {
 	padding-bottom: 50px;
 }
