@@ -41,79 +41,6 @@
 	<link rel="stylesheet" href="css/slippry.css">
 
 </head>
-<!-- 
-
-<?php
-$error = false;
-$name = isset($_POST['name']) ? $_POST['name'] : 'name';
-$email = isset($_POST['email']) ? $_POST['email'] : 'email';
-$message = isset($_POST['message']) ? $_POST['message'] : 'message';
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-
-if ($name == '') {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("nameBlank").style.display = "inline-block";
-});
-</script><?php
-$error = true;
-}
-if ($message == '') {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("messageBlank").style.display = "inline-block";
-});
-</script><?php
-$error = true;
-}
-
-if ($email == '') {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("emailBlank").style.display = "inline-block";
-});
-</script><?php
-$error = true;
-}
-else {
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("emailInvalid").style.display = "inline-block";
-});
-</script><?php
-$error = true;
-}
-}
-
-if (!$error) {
-$to = 'ben.shreeve@gmail.com';
-$subject = 'benshreeve.com Contact';
-$body = $name . ", " . $email . ", " . $message;
-
-if (mail ($to, $subject, $body)) {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("returnMessage").textContent="Thanks, your request was sent successfully! You can expect a response within the next few business days.";
-});
-</script><?php
-}
-else {
-?><script type="text/javascript">
-window.addEventListener("load", function() {
-document.getElementById("returnMessage").textContent="Sorry, something went wrong. Please try again!";
-});
-</script><?php
-}
-}
-}
-?>
- -->
-
 
 <body>
 
@@ -169,8 +96,8 @@ document.getElementById("returnMessage").textContent="Sorry, something went wron
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>Hi, I'm Ben.</h1>
-                        <h3>"Like Captain America, only with more crayons"  
-                		</h3>
+                        <h2>What I specialise in</h2>
+                        <h3 class="crayonheader">Like Captain America, only with more crayons</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
@@ -307,7 +234,7 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-12">
                     <!-- <hr class="section-heading-spacer"> -->
                     <div class="clearfix"></div>
                     <h2 class="section-heading">My academic hat</h2>
@@ -316,21 +243,93 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
                     </p>
     
                 </div>
-                
-                <div class="col-lg-6 col-lg-offset-1 col-sm-6">
-                    <img class="img-responsive" src="img/team_drawing/dragon.gif" alt="GIF of team drawing a dragon">
-                    <h4 align="center">A team collaborating remotely to draw a dragon</h4>
-                </div>
-            	
             </div>
 			
-			<div class="row">
+			<!-- 
+<div class="row">
                 <div class="col-lg-12">
-			 	<p class="lead">	
-                    It is time to start questioning our outdated ways of working. And yes, sure there are some jobs that need to be completed by local teams. And yes, it is important to catch up. But what we should be doing is learning to structure organisations and teams so that people can work virtually. It isn't impossible and the benefits work both ways. As an organisation you end up with a more motivated work force who have the freedom to work more flexibly, and you no longer need such expensive offices. Your employees get the freedom they've always wanted. Now this is no easy thing, we have learned how to work in close proximity over hundreds of years, but we can learn to work virtually. Get in touch to learn more and start improving your organisation.
-                    </p>
+			 		<div class="col-lg-3">
+			 			<img class="img-responsive" src="img/workingfromhome.jpg" alt="">
+			 		</div>
+			 		
+			 		<div class="col-lg-1"></div>
+			 	
+			 		<div class="col-lg-3">
+			 			<img class="img-responsive" src="img/creativity.jpg" alt="">
+			 		</div>
+			 		
+			 		<div class="col-lg-1"></div>
+			 	
+			 		<div class="col-lg-3">
+			 			<img class="img-responsive" src="img/officework.jpg" alt="">
+			 		</div>
+			 	
 				</div>
 			</div>
+
+
+			<div class="row">
+                <div class="col-lg-12">
+			 		<div class="col-lg-3">
+			 			<h4>Are teams that work from home</h4>
+			 		</div>
+			 		
+			 		<div class="col-lg-1">
+			 			<h4>as</h4>
+			 		</div>
+			 		
+			 	
+			 		<div class="col-lg-3" class="centrecontent">
+			 			<h4>Creative? </br> As good at identifying and resolving problems?</h4>
+			 		</div>
+			 		
+			 		<div class="col-lg-1">
+			 			<h4>as</h4>
+			 		</div>
+			 	
+			 		<div class="col-lg-3">
+			 			<h4>Traditional, office-based teams?</h4>
+			 		</div>
+			 	
+				</div>
+			</div>
+ -->
+
+			<div class="row">
+			 		<div class="col-md-4 researchQuestion">
+			 			<img class="img-responsive" src="img/workingfromhome.jpg" alt="">
+			 		</div>
+			 	
+			 		<div class="col-md-4 researchQuestion">
+			 			<img class="img-responsive" src="img/creativity.jpg" alt="">
+			 		</div>
+			 	
+			 		<div class="col-md-4 researchQuestion">
+			 			<img class="img-responsive" src="img/officework.jpg" alt="">
+			 		</div>
+			 	
+			</div>
+
+
+			<div class="row">
+			 		<div class="col-md-4 researchQuestion">
+			 			<h4>Are teams that work from home...</h4>
+			 		</div>
+			 	
+			 		<div class="col-md-4 researchQuestion">
+			 			<h4>...as creative...</h4>
+			 		</div>
+			 	
+			 		<div class="col-md-4 researchQuestion">
+			 			<h4>...as traditional, office-based teams?</h4>
+			 		</div>
+			</div>
+
+			<div class="row">
+					<div class="col-md-7 col-md-offset-5 hidden-xs hidden-sm">
+			 			<img class="img-responsive crayonArrowResearch" src="img/arrow1.png" alt="">
+			 			<h5 class="crayonCaptionResearch crayoncaption">...and therefore as good at identifying and resolving problems?</h5>
+			 		</div>
 
         </div>
         <!-- /.container -->
@@ -398,21 +397,21 @@ Chicken turducken pork belly corned beef. Ham hock ham shankle meatball salami. 
             	<div class="col-lg-4">
             		<h4 class="section-heading">Climbing</h4>
             		<p class="lead">
-            	SOME TEST TO DO WITH MY AMAZING HOBBIES.
+            	I take every opportunity I can to get out climbing in the local area. I love the freedom that trad climbing provides, letting you explore the landscape your own way, without leaving a trace. 
             		</p>
             	</div>
             	
             	<div class="col-lg-4">
             		<h4 class="section-heading">Cycling</h4>
             		<p class="lead">
-            	SOME TEST TO DO WITH MY AMAZING HOBBIES.
+            	I have been cycling since I was four and have never stopped. These days I am often to be found out around Lancaster on my trust steed. Or when the weather isn't so good following the cycling calendar. 
             		</p>
             	</div>
             	
             	<div class="col-lg-4">
             		<h4 class="section-heading">Music & Conducting</h4>
             		<p class="lead">
-            	SOME TEST TO DO WITH MY AMAZING HOBBIES.
+            	I started to learn the bassoon when I was nine and I am still playing all this time later. Recently I have sought help the musical community that has given me so much by learning to conduct. 
             		</p>
             	</div>
         	</div>

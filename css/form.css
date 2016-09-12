@@ -3,6 +3,11 @@ form {
 	color: #FFFFF;
 }
 
+@font-face {
+    font-family: crayonFont;
+    src: local(crayonFont), url('../fonts/Sandbox-Melodrama.ttf') format('opentype');
+}
+
 /* 
 label {
 	font-weight: normal !important;
@@ -83,6 +88,45 @@ input[type=submit]:hover {
 .fa-paper-plane-o {
 	float: left;
 	padding-top:5px
+}
+
+.researchQuestion img {
+	margin: 25px auto;
+	width: 70%;
+}
+
+.researchQuestion > h4 {
+	text-align: center;
+}
+
+.crayonArrowResearch {
+	float: left;
+	margin: 0 0 25px 50px;
+}
+
+
+.crayoncaption {
+	text-align: center;
+	font-family: crayonFont;
+	color: #993300;
+	font-size:28px;
+}
+
+.crayonheader {
+	text-align: center;
+	font-family: crayonFont;
+	color: #ffffff;
+	font-size:28px;
+}
+
+.crayonCaptionResearch {
+	/* 
+text-align: center;
+	font-family: crayonFont;
+	color: #993300;
+	font-size:28px;
+ */
+	margin: 50px 150px 50px 0;
 }
 /*
 .formError {
