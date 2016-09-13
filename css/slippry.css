@@ -102,7 +102,7 @@
     transform: translateY(-20%) translateX(-10%); } }
 /* added to the original element calling slippry */
 .sy-box.sy-loading {
-  background: url("/images/sy-loader.gif") 50% 50% no-repeat;
+  background: url("../img/sy-loader.gif") 50% 50% no-repeat;
   -moz-background-size: 32px;
   -o-background-size: 32px;
   -webkit-background-size: 32px;
@@ -112,12 +112,66 @@
     visibility: hidden; }
 
 /* element that wraps the slides */
+/* 
 .sy-slides-wrap {
   position: relative;
   height: 480px;
   width: 100%; }
   .sy-slides-wrap:hover .sy-controls {
     display: block; }
+ */
+    
+ /* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 150px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 270px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 300px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 390px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; 
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.sy-slides-wrap {
+  position: relative;
+  height: 470px;
+  width: 100%; }
+  .sy-slides-wrap:hover .sy-controls {
+    display: block; }
+}
 
 /* element that crops the visible area to the slides */
 .sy-slides-crop {
@@ -234,7 +288,7 @@
         outline: none; }
       .sy-controls li a:after {
         content: "";
-        background-image: url("/images/arrows.svg");
+        background-image: url("../img/arrows.svg");
         background-repeat: no-repeat;
         -moz-background-size: cover;
         -o-background-size: cover;
