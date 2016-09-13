@@ -103,6 +103,11 @@ input[type=submit]:hover {
 	width: 70%;
 }
 
+.whereIfitin img{
+	margin: 25px auto;
+	width: 50%;
+}
+
 .researchQuestion > h4 {
 	text-align: center;
 }
