@@ -4,13 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+@font-face {
+    font-family: jura-regular;
+    src: local(jura-regular), url('../fonts/Jura-Regular.ttf') format('opentype');
+}
+
 body,
 html {
     width: 100%;
     height: 100%;
 }
 
-body,
+body {
+	font-family: 'jura-regular';
+}
+
 h1,
 h2,
 h3,
@@ -21,7 +29,6 @@ h6 {
 font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
  */
-    font-family: 'Jura', sans-serif;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -33,7 +40,7 @@ font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 .lead {
     font-size: 18px;
     font-weight: 400;
-    font-family:'Jura'; 
+    font-family: 'jura-regular';
 }
 
 .lead p {
