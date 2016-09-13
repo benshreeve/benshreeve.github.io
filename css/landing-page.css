@@ -17,9 +17,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* 
+font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+ */
+    font-family: 'Jura', sans-serif;
+	font-family: 'Playfair Display', serif;
 }
+
 
 .topnav {
     font-size: 14px; 
