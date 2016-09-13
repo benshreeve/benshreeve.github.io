@@ -121,6 +121,14 @@ input[type=submit]:hover {
 	letter-spacing: 2px;
 }
 
+
+.crayontitle{
+	font-family: crayonFont;
+	color: #993300;
+	font-size:28px;
+	letter-spacing: 2px;
+}
+
 .crayonheader {
 	text-align: center;
 	font-family: crayonFont;
