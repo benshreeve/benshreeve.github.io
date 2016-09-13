@@ -89,6 +89,10 @@ input[type=submit]:hover {
 	padding-bottom: 50px;
 }
 
+.screenblurb {
+	padding-bottom: 30px;
+}
+
 .fa-paper-plane-o {
 	float: left;
 	padding-top:5px
