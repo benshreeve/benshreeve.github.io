@@ -33,6 +33,7 @@ font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 .lead {
     font-size: 18px;
     font-weight: 400;
+    font-family:'Jura'; 
 }
 
 .lead p {
