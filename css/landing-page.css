@@ -46,6 +46,7 @@ font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 .lead p {
     font-size: 18px !important;
     font-weight: 400 !important;
+    font-family: 'jura-regular';
 }
 
 .intro-header {
